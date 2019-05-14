@@ -10,8 +10,8 @@ _core:
   default_config_hash: 8by5KRsb7ZpmjHj0ms1d7xAG_xH54AWsOX6spDLJ59U
 id: mayo_breadcrumbs
 theme: mayo
-region: breadcrumb
-weight: 0
+region: banner_bottom
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:
