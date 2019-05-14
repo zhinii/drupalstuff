@@ -1,0 +1,22 @@
+uuid: 3ddfa1a9-289e-49f7-9e9c-73178379d9c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - mayo
+_core:
+  default_config_hash: 862sIulDdHmF0vBU1s2j2_a_CwkxursrL0pIrMDzzOg
+id: mayo_login
+theme: mayo
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }
